@@ -6,7 +6,7 @@ name=input('name:')
 
 #load dialog
 dialog=0
-with open('scripts/dialogs/dialog_MovingOut.txt','r') as file:
+with open('dialog.txt','r') as file:
     dialog=file.readlines()
 dialog=[line.strip('\n') for line in dialog]
 #script
@@ -24,7 +24,3 @@ for line in dialog:
         print('You: '+line[len(name):])
         
 print("END Thank You")
-        
-    
-
-
