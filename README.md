@@ -1,4 +1,4 @@
-# dialog_simulator
+# Dialog Trainer
 Short python code which simulates a dialog according to a script by using a text to speech library . You can give yourself a role from the script and read your part yourself.
 
 This code uses the ```pyttsx3``` library in oreder to read aloud. You might need to install it in oreder to be able to run the script. Link: https://pypi.org/project/pyttsx3/
